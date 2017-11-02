@@ -1,8 +1,5 @@
 <resources>
-<<<<<<< HEAD
+
     <string name="app_name">Quiz</string>
-=======
-    <string name="app_name">Enjoy!!</string>
->>>>>>> 33fdd350f9bfc5a922d7eb5a22562f1d0c37945f
     <string name="title_activity_main">MainActivity</string>
 </resources>

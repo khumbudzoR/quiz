@@ -20,8 +20,7 @@ public class MainActivity extends AppCompatActivity {
         Religion = (Button) findViewById(R.id.Religion);
         Relationship=(Button)findViewById(R.id.btnRelationship);
         Music=(Button)findViewById(R.id.Music);
-        btnrate=(Button)findViewById(R.id.btnrate);
-        rating= (RatingBar) findViewById(R.id.rating);
+
 
     }
 

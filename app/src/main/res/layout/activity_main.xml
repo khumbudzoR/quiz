@@ -1,89 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pic"
+
     tools:context="MainActivity"
     android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
-<<<<<<< HEAD
-
-=======
-<ImageView
-    android:layout_width="match_parent"
-    android:layout_height="207dp"
-    android:background="@drawable/mxm"/>
->>>>>>> 33fdd350f9bfc5a922d7eb5a22562f1d0c37945f
-
-    </LinearLayout>
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:id="@+id/image"
+        android:src="@drawable/categories"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/btnRelationship"
+        android:layout_alignStart="@+id/btnRelationship" />
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:id="@+id/images"
+        android:src="@drawable/play"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/image"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
 
         android:id="@+id/Religion"
         android:layout_width="342sp"
         android:layout_height="70sp"
-        android:layout_above="@+id/btnRelationship"
-        android:layout_alignEnd="@+id/btnRelationship"
-        android:layout_alignRight="@+id/btnRelationship"
         android:layout_gravity="center"
-        android:background="#FFCA28"
+        android:background="#FF9A00"
         android:onClick="onClick1"
-        android:text="Religion" />
+        android:text="Religion"
+        android:layout_marginBottom="28dp"
+        android:layout_above="@+id/btnRelationship"
+        android:layout_alignRight="@+id/btnRelationship"
+        android:layout_alignEnd="@+id/btnRelationship" />
 
     <Button
         android:id="@+id/btnRelationship"
         android:layout_width="345sp"
         android:layout_height="70sp"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3"
-        android:layout_centerVertical="true"
         android:layout_gravity="center"
         android:background="#4DB6AC"
         android:onClick="onClick2"
-        android:text="SPORTS" />
+        android:text="SPORTS"
+        android:layout_marginBottom="25dp"
+        android:layout_above="@+id/Music"
+        android:layout_alignLeft="@+id/Music"
+        android:layout_alignStart="@+id/Music" />
 
     <Button
         android:id="@+id/Music"
         android:layout_width="342sp"
         android:layout_height="70sp"
-        android:onClick="onClick3"
         android:layout_gravity="center"
-        android:background="#FFCA28"
+        android:background="#FF9A00"
+        android:onClick="onClick3"
         android:text="Television"
-        android:layout_below="@+id/btnmusic"
+        android:layout_marginBottom="46dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
-    <RatingBar
-        android:id="@+id/rating"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/btnrate"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginLeft="36dp"
-        android:layout_marginStart="36dp"
-        android:numStars="5"
-        android:rating="4.5"
-        android:stepSize="0.25" />
-
-    <Button
-        android:id="@+id/btnrate"
-        android:layout_width="345sp"
-        android:layout_height="70sp"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3"
-        android:layout_centerVertical="true"
-        android:layout_gravity="center"
-        android:background="#4DB6AC"
-        android:onClick="onClick4"
-        android:text="ratings" />
-
-</LinearLayout>
+</RelativeLayout>
 
