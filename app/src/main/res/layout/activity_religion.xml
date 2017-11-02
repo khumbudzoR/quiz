@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pic"
+    tools:context="com.example.admin.start.Religion">
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Religion"
+                android:textSize="50sp"
+                android:textStyle="normal|bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Which woman from Sorek betrayed an Israelite hero?"
+                android:textColor="#009688"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:onClick="ReligionQ1"
+                    android:text="Delilah" />
+
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Herodias" />
+
+                <RadioButton
+                    android:id="@+id/radio3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jezebel" />
+
+                <RadioButton
+                    android:id="@+id/radio4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Salome" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="2. What is the last book in The New Testament?"
+                android:textColor="#009688"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Colossians" />
+
+                <RadioButton
+                    android:id="@+id/radio6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jude" />
+
+                <RadioButton
+                    android:id="@+id/radio7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ReligionQ2"
+                    android:text="Revelation" />
+
+                <RadioButton
+                    android:id="@+id/radio8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Acts" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=" 3. Which Biblical character fathered Shem, Ham and Japheth?"
+                android:textColor="#009688"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ahab" />
+
+                <RadioButton
+                    android:id="@+id/radio10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ezra" />
+
+                <RadioButton
+                    android:id="@+id/radio11"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ReligionQ3"
+                    android:text="Noah" />
+
+                <RadioButton
+                    android:id="@+id/radio12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Solomon" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="4.According to the book of Genesis, how did Sodom and Gomorrah meet their end?"
+                android:textColor="#009688"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio13"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ReligionQ4"
+                    android:text="Fire and Brimstone" />
+
+                <RadioButton
+                    android:id="@+id/radio14"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Flood" />
+
+                <RadioButton
+                    android:id="@+id/radio15"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Plague of Locusts" />
+
+                <RadioButton
+                    android:id="@+id/radio16"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sacked by the Philistines" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Which Old Testament prophet described himself as a dresser of sycamore trees?"
+                android:textColor="#009688"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radiio17"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ReligionQ5"
+                    android:text="Amos" />
+
+                <RadioButton
+                    android:id="@+id/radio18"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ezekiel" />
+
+                <RadioButton
+                    android:id="@+id/radio19"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Isaiah" />
+
+                <RadioButton
+                    android:id="@+id/radio20"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hosea" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.34"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:text="Score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="submitButton"
+                    android:textColor="#009688"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
