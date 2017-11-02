@@ -30,10 +30,11 @@
                 tools:ignore="HardcodedText" />
 
             <TextView
+                android:id="@+id/textView"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="1.Which woman from Sorek betrayed an Israelite hero?"
-                android:textColor="#009688"
+                android:textColor="#FF9A00"
                 android:textStyle="bold" />
 
             <RadioGroup
@@ -73,7 +74,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="2. What is the last book in The New Testament?"
-                android:textColor="#009688"
+                android:textColor="#FF9A00"
                 android:textStyle="bold" />
 
             <RadioGroup
@@ -112,7 +113,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text=" 3. Which Biblical character fathered Shem, Ham and Japheth?"
-                android:textColor="#009688"
+                android:textColor="#FF9A00"
                 android:textStyle="bold" />
 
             <RadioGroup
@@ -151,7 +152,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="4.According to the book of Genesis, how did Sodom and Gomorrah meet their end?"
-                android:textColor="#009688"
+                android:textColor="#FF9A00"
                 android:textStyle="bold" />
 
             <RadioGroup
@@ -190,7 +191,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="5. Which Old Testament prophet described himself as a dresser of sycamore trees?"
-                android:textColor="#009688"
+                android:textColor="#FF9A00"
                 android:textStyle="bold" />
 
             <RadioGroup
@@ -237,8 +238,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:background="#FF9A00"
                     android:onClick="submitButton"
-                    android:textColor="#009688"
+                    android:textColor="#FFFFFF"
                     android:textStyle="bold" />
 
             </LinearLayout>

@@ -31,7 +31,9 @@
                 android:layout_height="wrap_content"
                 android:text="How many sealed un-numbered boxes are there in the show Deal Or No Deal?"
                 android:textStyle="bold"
-                android:textColor="#009688"/>
+                android:textColor="#FF9A00"
+                />
+
 
             <RadioGroup
                 android:id="@+id/radioG1p"
@@ -71,7 +73,9 @@
                 android:layout_height="wrap_content"
                 android:text="Which TV game show invites families to identify the top 6 answers to a question?"
                 android:textStyle="bold"
-                android:textColor="#009688"/>
+                android:textColor="#FF9A00"
+                />
+
 
             <RadioGroup
                 android:id="@+id/radioG2p"
@@ -111,7 +115,9 @@
                 android:layout_height="wrap_content"
                 android:text="Who won the first series of Celebrity Big Brother in 2001?"
                 android:textStyle="bold"
-                android:textColor="#009688"/>
+                android:textColor="#FF9A00"
+                />
+
 
             <RadioGroup
                 android:id="@+id/radioG3p"
@@ -151,7 +157,9 @@
                 android:layout_height="wrap_content"
                 android:text="Samuel Preston who appeared in Celebrity Big Brother 2006, was at the time lead singer with which band??"
                 android:textStyle="bold"
-                android:textColor="#009688"/>
+                android:textColor="#FF9A00"
+                />
+
 
             <RadioGroup
                 android:id="@+id/radioG4p"
@@ -191,7 +199,8 @@
                 android:layout_height="wrap_content"
                 android:text="What was voted the best programme on children's TV by Channel 4 viewers in 2005?"
                 android:textStyle="bold"
-                android:textColor="#009688"/>
+                android:textColor="#FF9A00"
+       />
 
             <RadioGroup
                 android:id="@+id/radioG5p"
@@ -236,20 +245,17 @@
 
                 <Button
                     android:text="Score"
-                    android:layout_width="60dp"
-                    android:layout_height="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
                     android:layout_weight="1"
                     android:onClick="submitButtonp"
                     android:background="#FF9A00"
-                    android:textColor="#009688"
-                    android:textStyle="bold" />
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"/>
 
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
-
-
-
 
 

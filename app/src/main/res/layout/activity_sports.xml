@@ -32,7 +32,9 @@
                 android:layout_height="wrap_content"
                 android:text="1.The opening fixture of the 2009 Confederations Cup football tournament was held in which South African city?"
                 android:textStyle="bold"
-                android:textColor="#009688" />
+                android:textColor="#FF9A00"
+                />
+
 
             <RadioGroup
                 android:id="@+id/radioGroupr"
@@ -72,7 +74,9 @@
                 android:layout_height="wrap_content"
                 android:text="2.Tony Mowbray left West Bromwich Albion in June 2009 to manage which Scottish football club?"
                 android:textStyle="bold"
-                android:textColor="#009688" />
+                android:textColor="#FF9A00"
+                />
+
 
             <RadioGroup
                 android:id="@+id/radioGroup1r"
@@ -112,7 +116,9 @@
                 android:layout_height="wrap_content"
                 android:text="3.Madrid lost out to Rio de Janeiro on Friday in the bidding to host the 2016 Olympics. Which other European city was one of the seven original applicants??"
                 android:textStyle="bold"
-                android:textColor="#009688" />
+                android:textColor="#FF9A00"
+                />
+
 
             <RadioGroup
                 android:id="@+id/radioGroup3r"
@@ -151,7 +157,9 @@
                 android:layout_height="wrap_content"
                 android:text="4.German football club Wolfsburg, who lost at Old Trafford last week, are sponsored by which car manufacturer?"
                 android:textStyle="bold"
-                android:textColor="#009688" />
+                android:textColor="#FF9A00"
+                />
+
 
             <RadioGroup
                 android:id="@+id/radioGroup4r"
@@ -191,7 +199,9 @@
                 android:layout_height="wrap_content"
                 android:text="5.The first Six Nations Championship was held in 2000. Who were the winners"
                 android:textStyle="bold"
-                android:textColor="#009688"/>
+                android:textColor="#FF9A00"
+                />
+
 
             <RadioGroup
                 android:id="@+id/radioGroup5r"
@@ -231,12 +241,16 @@
                 android:orientation="horizontal">
 
             </LinearLayout>
+
             <Button
-                android:text="Score"
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:background="#FF9A00"
                 android:gravity="center"
-                android:layout_width="300sp"
-                android:layout_height="wrap_content"
-                android:onClick="submitButtonr" />
+android:textColor="#FFFFFF"
+                android:onClick="submitButtonr"
+                android:text="Score" />
 
         </LinearLayout>
 
